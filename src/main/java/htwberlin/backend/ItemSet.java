@@ -2,7 +2,6 @@ package htwberlin.backend;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -22,8 +21,8 @@ public class ItemSet {
     @ElementCollection
     private List<Integer> associatedChampions = new ArrayList<>();
     ;
-    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    private static final List<ItemBlock> blocks = new ArrayList<>();
+    @OneToMany(cascade = CascadeType.ALL , fetch = FetchType.EAGER,orphanRemoval=true)
+    private List<ItemBlock> blocks = new ArrayList<>();
 
 
     public ItemSet() {
@@ -31,7 +30,6 @@ public class ItemSet {
 
     public ItemSet(String title) {
         this.title = title;
-        associatedChampions = Arrays.asList(1);
         associatedMaps = Arrays.asList(11, 12);
         blocks.add(new ItemBlock());
     }

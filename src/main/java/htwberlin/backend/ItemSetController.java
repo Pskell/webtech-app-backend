@@ -46,7 +46,7 @@ public class ItemSetController {
     @GetMapping(value = "/sets")
     public ResponseEntity<String> getAllThingsFormatted() throws JsonProcessingException {
         List<ItemSet> itemSets = service.getAll();
-        StringJoiner joiner = new StringJoiner("\n");
+        StringJoiner joiner = new StringJoiner("\n\n");
         ObjectMapper mapper = new ObjectMapper();
         for (ItemSet itemSet : itemSets) {
             String itemSetJson = mapper.writeValueAsString(itemSet);

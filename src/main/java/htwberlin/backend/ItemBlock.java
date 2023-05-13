@@ -1,8 +1,9 @@
 package htwberlin.backend;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-
-import java.util.HashMap;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 //TODO
@@ -10,19 +11,37 @@ import java.util.Objects;
 @Entity
 public class ItemBlock {
 
+    @JsonIgnore
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long primKey;
     private String type = "New Block";
 
-    @ElementCollection
-    private final HashMap<String, Integer> items = new HashMap<>();
+    @OneToMany(cascade = CascadeType.ALL , fetch = FetchType.EAGER,orphanRemoval=true)
+    private List<Item> items = new ArrayList<>();
 
     public ItemBlock() {
     }
 
-    public ItemBlock(String type) {
+    public ItemBlock(String type,List<Item> items) {
         this.type = type;
+        this.items=items;
+    }
+
+    public List<Item> getItems() {
+        return items;
+    }
+
+    public void addItems(Item item) {
+        items.add(item);
+    }
+
+    public void deleteItems(Item item){
+        items.remove(item);
+    }
+
+    public void setItems(List<Item> items) {
+        this.items = items;
     }
 
     public Long getPrimKey() {
@@ -37,14 +56,7 @@ public class ItemBlock {
         this.type = type;
     }
 
-    public HashMap<String, Integer> getItems() {
-        return items;
-    }
 
-    public void addItem(String item) {
-        items.merge(item, 1, Integer::sum);
-
-    }
 
     @Override
     public boolean equals(Object o) {
