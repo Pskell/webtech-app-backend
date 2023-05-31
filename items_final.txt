@@ -1,0 +1,1643 @@
+[
+  {
+    "key": 4644,
+    "name": "Crown of the Shattered Queen",
+    "image": "4644.png",
+    "gold": 2800,
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "Mana",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 250,
+      "FlatMPPoolMod": 600,
+      "FlatMagicDamageMod": 70
+    }
+  },
+  {
+    "key": 6632,
+    "name": "Divine Sunderer",
+    "image": "6632.png",
+    "gold": 3300,
+    "tags": [
+      "Health",
+      "Damage",
+      "CooldownReduction",
+      "OnHit",
+      "MagicPenetration",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 40,
+      "FlatHPPoolMod": 300
+    }
+  },
+  {
+    "key": 6691,
+    "name": "Duskblade of Draktharr",
+    "image": "6691.png",
+    "gold": 3100,
+    "tags": [
+      "Damage",
+      "Stealth",
+      "CooldownReduction",
+      "Slow",
+      "NonbootsMovement",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 60
+    }
+  },
+  {
+    "key": 6692,
+    "name": "Eclipse",
+    "image": "6692.png",
+    "gold": 3100,
+    "tags": [
+      "Damage",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 60
+    }
+  },
+  {
+    "key": 6693,
+    "name": "Prowler's Claw",
+    "image": "6693.png",
+    "gold": 3100,
+    "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 60
+    }
+  },
+  {
+    "key": 3001,
+    "name": "Evenshroud",
+    "image": "3001.png",
+    "gold": 2500,
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 200,
+      "FlatSpellBlockMod": 30,
+      "FlatArmorMod": 30
+    }
+  },
+  {
+    "key": 6656,
+    "name": "Everfrost",
+    "image": "6656.png",
+    "gold": 2800,
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "Mana",
+      "Active",
+      "CooldownReduction",
+      "Slow",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 250,
+      "FlatMPPoolMod": 600,
+      "FlatMagicDamageMod": 70
+    }
+  },
+  {
+    "key": 6671,
+    "name": "Galeforce",
+    "image": "6671.png",
+    "gold": 3400,
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed",
+      "Active",
+      "NonbootsMovement"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 60,
+      "FlatCritChanceMod": 0.2,
+      "PercentAttackSpeedMod": 0.2
+    }
+  },
+  {
+    "key": 6630,
+    "name": "Goredrinker",
+    "image": "6630.png",
+    "gold": 3300,
+    "tags": [
+      "Health",
+      "Damage",
+      "LifeSteal",
+      "Active",
+      "CooldownReduction",
+      "SpellVamp",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 55,
+      "FlatHPPoolMod": 300
+    }
+  },
+  {
+    "key": 3084,
+    "name": "Heartsteel",
+    "image": "3084.png",
+    "gold": 3200,
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 800
+    }
+  },
+  {
+    "key": 3152,
+    "name": "Hextech Rocketbelt",
+    "image": "3152.png",
+    "gold": 3200,
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "MagicPenetration",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 250,
+      "FlatMagicDamageMod": 90
+    }
+  },
+  {
+    "key": 6662,
+    "name": "Iceborn Gauntlet",
+    "image": "6662.png",
+    "gold": 3000,
+    "tags": [
+      "Health",
+      "Armor",
+      "CooldownReduction",
+      "Slow",
+      "OnHit",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 400,
+      "FlatArmorMod": 50
+    }
+  },
+  {
+    "key": 6665,
+    "name": "Jak'Sho, The Protean",
+    "image": "6665.png",
+    "gold": 3200,
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "CooldownReduction",
+      "MagicResist",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 400,
+      "FlatSpellBlockMod": 30,
+      "FlatArmorMod": 30
+    }
+  },
+  {
+    "key": 7012,
+    "name": "Liandry's Lament",
+    "image": "7012.png",
+    "gold": 3200,
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatMPPoolMod": 800,
+      "FlatMagicDamageMod": 110
+    }
+  },
+  {
+    "key": "3190",
+    "name": "Locket of the Iron Solari",
+    "image": "3190.png",
+    "gold": 2500,
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Aura",
+      "Active",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 200,
+      "FlatSpellBlockMod": 30,
+      "FlatArmorMod": 30
+    }
+  },
+  {
+    "key": 6655,
+    "name": "Luden's Tempest",
+    "image": "6655.png",
+    "gold": 3200,
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "MagicPenetration",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatMPPoolMod": 600,
+      "FlatMagicDamageMod": 80
+    }
+  },
+  {
+    "key": 6617,
+    "name": "Moonstone Renewer",
+    "image": "6617.png",
+    "gold": 2500,
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 200,
+      "FlatMagicDamageMod": 40
+    }
+  },
+  {
+    "key": 4636,
+    "name": "Night Harvester",
+    "image": "4636.png",
+    "gold": 3200,
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 300,
+      "FlatMagicDamageMod": 90
+    }
+  },
+  {
+    "key": 6667,
+    "name": "Radiant Virtue",
+    "image": "6667.png",
+    "gold": 3200,
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Aura",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 400,
+      "FlatSpellBlockMod": 30,
+      "FlatArmorMod": 30
+    }
+  },
+  {
+    "key": 4633,
+    "name": "Riftmaker",
+    "image": "4633.png",
+    "gold": 3200,
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "SpellVamp",
+      "MagicPenetration",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 300,
+      "FlatMagicDamageMod": 70
+    }
+  },
+  {
+    "key": 6657,
+    "name": "Rod of Ages",
+    "image": "6657.png",
+    "gold": 2800,
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "SpellDamage",
+      "Mana",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 400,
+      "FlatMPPoolMod": 400,
+      "FlatMagicDamageMod": 60
+    }
+  },
+  {
+    "key": 2065,
+    "name": "Shurelya's Battlesong",
+    "image": "2065.png",
+    "gold": 2500,
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "ManaRegen",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 200,
+      "FlatMagicDamageMod": 40
+    }
+  },
+  {
+    "key": 6631,
+    "name": "Stridebreaker",
+    "image": "6631.png",
+    "gold": 3300,
+    "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "Active",
+      "CooldownReduction",
+      "Slow",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 50,
+      "FlatHPPoolMod": 300,
+      "PercentAttackSpeedMod": 0.2
+    }
+  },
+  {
+    "key": 3078,
+    "name": "Trinity Force",
+    "image": "3078.png",
+    "gold": 3333,
+    "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "OnHit",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 35,
+      "FlatHPPoolMod": 300,
+      "PercentAttackSpeedMod": 0.3
+    }
+  },
+  {
+    "key": 6672,
+    "name": "Kraken Slayer",
+    "image": "6672.png",
+    "gold": 3400,
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed",
+      "OnHit",
+      "ArmorPenetration"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 65,
+      "FlatCritChanceMod": 0.2,
+      "PercentAttackSpeedMod": 0.25
+    }
+  },
+  {
+    "key": 6673,
+    "name": "Immortal Shieldbow",
+    "image": "6673.png",
+    "gold": 3400,
+    "tags": [
+      "Health",
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed",
+      "LifeSteal"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 50,
+      "FlatCritChanceMod": 0.2,
+      "PercentAttackSpeedMod": 0.2,
+      "PercentLifeStealMod": 0.07
+    }
+  },
+  {
+    "key": 8020,
+    "name": "Abyssal Mask",
+    "image": "8020.png",
+    "gold": 3000,
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "HealthRegen",
+      "Mana",
+      "ManaRegen",
+      "CooldownReduction",
+      "MagicPenetration",
+      "MagicResist",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 550,
+      "FlatSpellBlockMod": 40,
+      "FlatMPPoolMod": 300
+    }
+  },
+  {
+    "key": 8001,
+    "name": "Anathema's Chains",
+    "image": "8001.png",
+    "gold": 2500,
+    "tags": [
+      "Health",
+      "Active",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 650
+    }
+  },
+  {
+    "key": 3003,
+    "name": "Archangel's Staff",
+    "image": "3003.png",
+    "gold": 3000,
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "Mana",
+      "Active",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 200,
+      "FlatMPPoolMod": 500,
+      "FlatMagicDamageMod": 70
+    }
+  },
+  {
+    "key": 3004,
+    "name": "Manamune",
+    "image": "3004.png",
+    "gold": 2900,
+    "tags": [
+      "Damage",
+      "Mana",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 35,
+      "FlatMPPoolMod": 500
+    }
+  },
+  {
+    "key": 3504,
+    "name": "Ardent Censer",
+    "image": "3504.png",
+    "gold": 2300,
+    "tags": [
+      "AttackSpeed",
+      "SpellDamage",
+      "ManaRegen",
+      "OnHit"
+    ],
+    "stats": {
+      "FlatMagicDamageMod": 60
+    }
+  },
+  {
+    "key": 3508,
+    "name": "Essence Reaver",
+    "image": "3508.png",
+    "gold": 2900,
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ManaRegen",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 55,
+      "FlatCritChanceMod": 0.2
+    }
+  },
+  {
+    "key": 6696,
+    "name": "Axiom Arc",
+    "image": "6696.png",
+    "gold": 3000,
+    "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 55
+    }
+  },
+  {
+    "key": 3102,
+    "name": "Banshee's Veil",
+    "image": "3102.png",
+    "gold": 2600,
+    "tags": [
+      "SpellBlock",
+      "SpellDamage",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatSpellBlockMod": 45,
+      "FlatMagicDamageMod": 80
+    }
+  },
+  {
+    "key": 3071,
+    "name": "Black Cleaver",
+    "image": "3071.png",
+    "gold": 3100,
+    "tags": [
+      "Health",
+      "Damage",
+      "CooldownReduction",
+      "OnHit",
+      "NonbootsMovement",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 50,
+      "FlatHPPoolMod": 400
+    }
+  },
+  {
+    "key": 3072,
+    "name": "Bloodthirster",
+    "image": "3072.png",
+    "gold": 3200,
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "LifeSteal"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 55,
+      "FlatCritChanceMod": 0.2,
+      "PercentLifeStealMod": 0.15
+    }
+  },
+  {
+    "key": 3074,
+    "name": "Ravenous Hydra",
+    "image": "3074.png",
+    "gold": 3400,
+    "tags": [
+      "Damage",
+      "LifeSteal",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 65,
+      "PercentLifeStealMod": 0.1
+    }
+  },
+  {
+    "key": 3089,
+    "name": "Rabadon's Deathcap",
+    "image": "3089.png",
+    "gold": 3800,
+    "tags": [
+      "AbilityPower"
+    ],
+    "stats": {
+      "FlatMagicDamageMod": 120
+    }
+  },
+  {
+    "key": 3083,
+    "name": "Warmog's Armor",
+    "image": "3083.png",
+    "gold": 2850,
+    "tags": [
+      "Health",
+      "HealthRegen"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 800
+    }
+  },
+  {
+    "key": 3864,
+    "name": "Black Mist Scythe",
+    "image": "3864.png",
+    "gold": 400,
+    "tags": [
+      "Health",
+      "ManaRegen",
+      "GoldPer",
+      "Lane"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 20,
+      "FlatHPPoolMod": 75
+    }
+  },
+  {
+    "key": 3860,
+    "name": "Bulwark of the Mountain",
+    "image": "3860.png",
+    "gold": 400,
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "GoldPer",
+      "Lane"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 250,
+      "FlatMagicDamageMod": 20
+    }
+  },
+  {
+    "key": 6609,
+    "name": "Chempunk Chainsword",
+    "image": "6609.png",
+    "gold": 2800,
+    "tags": [
+      "Health",
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 55,
+      "FlatHPPoolMod": 250
+    }
+  },
+  {
+    "key": 6616,
+    "name": "Staff of Flowing Water",
+    "image": "6616.png",
+    "gold": {
+      "base": 630,
+      "purchasable": true,
+      "total": 2300,
+      "sell": 1610
+    },
+    "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatMagicDamageMod": 50
+    }
+  },
+  {
+    "key": 4629,
+    "name": "Cosmic Drive",
+    "image": "4629.png",
+    "gold": 3000,
+    "tags": [
+      "SpellDamage",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatMagicDamageMod": 100,
+      "PercentMovementSpeedMod": 0.05
+    }
+  },
+  {
+    "key": 3742,
+    "name": "Dead Man's Plate",
+    "image": "3742.png",
+    "gold": 2900,
+    "tags": [
+      "Health",
+      "Armor",
+      "Slow",
+      "NonbootsMovement"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 0,
+      "FlatCritChanceMod": 0,
+      "PercentAttackSpeedMod": 0
+    }
+  },
+  {
+    "key": 3814,
+    "name": "Edge of Night",
+    "image": "3814.png",
+    "gold": 2900,
+    "tags": [
+      "Health",
+      "Damage",
+      "ArmorPenetration"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 50,
+      "FlatHPPoolMod": 325
+    }
+  },
+  {
+    "key": 6333,
+    "name": "Death's Dance",
+    "image": "6333.png",
+    "gold": 3300,
+    "tags": [
+      "Armor",
+      "Damage",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 55,
+      "FlatArmorMod": 45
+    }
+  },
+  {
+    "key": 4637,
+    "name": "Demonic Embrace",
+    "image": "4637.png",
+    "gold": 3000,
+    "tags": [
+      "Health",
+      "SpellDamage"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 350,
+      "FlatMagicDamageMod": 75
+    }
+  },
+  {
+    "key": 3121,
+    "name": "Fimbulwinter",
+    "image": "3121.png",
+    "gold": 2700,
+    "tags": [
+      "Health",
+      "Mana",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 400,
+      "FlatMPPoolMod": 860
+    }
+  },
+  {
+    "key": 4401,
+    "name": "Force of Nature",
+    "image": "4401.png",
+    "gold": 2900,
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "NonbootsMovement"
+    ],
+    "stats": {
+      "PercentMovementSpeedMod": 0.05,
+      "FlatHPPoolMod": 350,
+      "FlatSpellBlockMod": 70
+    }
+  },
+  {
+    "key": 3026,
+    "name": "Guardian Angel",
+    "image": "3026.png",
+    "gold": 3000,
+    "tags": [
+      "Armor",
+      "Damage"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 45,
+      "FlatArmorMod": 40
+    }
+  },
+  {
+    "key": 3110,
+    "name": "Frozen Heart",
+    "image": "3110.png",
+    "gold": 2700,
+    "tags": [
+      "Armor",
+      "Mana",
+      "Aura",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatMPPoolMod": 400,
+      "FlatArmorMod": 90
+    }
+  },
+  {
+    "key": 3193,
+    "name": "Gargoyle Stoneplate",
+    "image": "3193.png",
+    "gold": 3200,
+    "tags": [
+      "SpellBlock",
+      "Armor",
+      "Active",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatSpellBlockMod": 60,
+      "FlatArmorMod": 60
+    }
+  },
+  {
+    "key": 4628,
+    "name": "Horizon Focus",
+    "image": "4628.png",
+    "gold": 3000,
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 150,
+      "FlatMagicDamageMod": 100
+    }
+  },
+  {
+    "key": 3181,
+    "name": "Hullbreaker",
+    "image": "3181.png",
+    "gold": 2800,
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Damage"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 50,
+      "FlatHPPoolMod": 400
+    }
+  },
+  {
+    "key": 4005,
+    "name": "Imperial Mandate",
+    "image": "4005.png",
+    "gold": 2500,
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "NonbootsMovement"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 200,
+      "FlatMagicDamageMod": 40
+    }
+  },
+  {
+    "key": 3109,
+    "name": "Knight's Vow",
+    "image": "3109.png",
+    "gold": 2300,
+    "tags": [
+      "Health",
+      "Aura",
+      "Active",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 400
+    }
+  },
+  {
+    "key": 3100,
+    "name": "Lich Bane",
+    "image": "3100.png",
+    "gold": 3000,
+    "tags": [
+      "SpellDamage",
+      "OnHit",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "PercentMovementSpeedMod": 0.08,
+      "FlatMagicDamageMod": 75
+    }
+  },
+  {
+    "key": 3036,
+    "name": "Lord Dominik's Regards",
+    "image": "3036.png",
+    "gold": 3000,
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 35,
+      "FlatCritChanceMod": 0.2
+    },
+    "effect": {
+      "Effect1Amount": "0.2"
+    }
+  },
+  {
+    "key": 3156,
+    "name": "Maw of Malmortius",
+    "image": "3156.png",
+    "gold": 2900,
+    "tags": [
+      "SpellBlock",
+      "Damage"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 65,
+      "FlatSpellBlockMod": 50
+    }
+  },
+  {
+    "key": 3041,
+    "name": "Mejai's Soulstealer",
+    "image": "3041.png",
+    "gold": 1600,
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "NonbootsMovement"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 100,
+      "FlatMagicDamageMod": 20
+    }
+  },
+  {
+    "key": 3111,
+    "name": "Mercury's Treads",
+    "image": "3111.png",
+    "gold": 1100,
+    "tags": [
+      "Boots",
+      "SpellBlock",
+      "Tenacity"
+    ],
+    "stats": {
+      "FlatMovementSpeedMod": 45,
+      "FlatSpellBlockMod": 25
+    }
+  },
+  {
+    "key": 3222,
+    "name": "Mikael's Blessing",
+    "image": "3222.png",
+    "gold": 2300,
+    "tags": [
+      "SpellBlock",
+      "ManaRegen",
+      "Active",
+      "CooldownReduction",
+      "Tenacity",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatSpellBlockMod": 50
+    }
+  },
+  {
+    "key": 3165,
+    "name": "Morellonomicon",
+    "image": "3165.png",
+    "gold": 3000,
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "MagicPenetration"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 200,
+      "FlatMagicDamageMod": 90
+    }
+  },
+  {
+    "key": 3033,
+    "name": "Mortal Reminder",
+    "image": "3033.png",
+    "gold": 3000,
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 35,
+      "FlatCritChanceMod": 0.2
+    }
+  },
+  {
+    "key": 3115,
+    "name": "Nashor's Tooth",
+    "image": "3115.png",
+    "gold": 3200,
+    "tags": [
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatMagicDamageMod": 100,
+      "PercentAttackSpeedMod": 0.5
+    }
+  },
+  {
+    "key": 3857,
+    "name": "Pauldrons of Whiterock",
+    "image": "3857.png",
+    "gold": 400,
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "GoldPer",
+      "Lane"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 15,
+      "FlatHPPoolMod": 250
+    }
+  },
+  {
+    "key": 3046,
+    "name": "Phantom Dancer",
+    "image": "3046.png",
+    "gold": 2600,
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 20,
+      "FlatCritChanceMod": 0.2,
+      "PercentMovementSpeedMod": 0.07,
+      "PercentAttackSpeedMod": 0.25
+    }
+  },
+  {
+    "key": 3143,
+    "name": "Randuin's Omen",
+    "image": "3143.png",
+    "gold": 3000,
+    "tags": [
+      "Health",
+      "Armor",
+      "Active",
+      "Slow"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 400,
+      "FlatArmorMod": 60
+    }
+  },
+  {
+    "key": 3094,
+    "name": "Rapid Firecannon",
+    "image": "3094.png",
+    "gold": 2500,
+    "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+    ],
+    "stats": {
+      "PercentAttackSpeedMod": 0.35,
+      "PercentMovementSpeedMod": 0.07,
+      "FlatCritChanceMod": 0.2
+    }
+  },
+  {
+    "key": 3107,
+    "name": "Redemption",
+    "image": "3107.png",
+    "gold": 2300,
+    "tags": [
+      "Health",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 200
+    }
+  },
+  {
+    "key": 3085,
+    "name": "Runaan's Hurricane",
+    "image": "3085.png",
+    "gold": 2600,
+    "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+    ],
+    "stats": {
+      "PercentAttackSpeedMod": 0.45,
+      "PercentMovementSpeedMod": 0.07,
+      "FlatCritChanceMod": 0.2
+    }
+  },
+  {
+    "key": 3116,
+    "name": "Rylai's Crystal Scepter",
+    "image": "3116.png",
+    "gold": 2600,
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "Slow"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 400,
+      "FlatMagicDamageMod": 75
+    }
+  },
+  {
+    "key": 6695,
+    "name": "Serpent's Fang",
+    "image": "6695.png",
+    "gold": 2600,
+    "tags": [
+      "Damage",
+      "ArmorPenetration"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 55
+    }
+  },
+  {
+    "key": 6694,
+    "name": "Serylda's Grudge",
+    "image": "6694.png",
+    "gold": 3200,
+    "tags": [
+      "Damage",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 45
+    }
+  },
+  {
+    "key": 4645,
+    "name": "Shadowflame",
+    "image": "4645.png",
+    "gold": 3000,
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "MagicPenetration"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 200,
+      "FlatMagicDamageMod": 100
+    }
+  },
+  {
+    "key": 3853,
+    "name": "Shard of True Ice",
+    "image": "3853.png",
+    "gold": 400,
+    "tags": [
+      "GoldPer",
+      "Lane",
+      "ManaRegen",
+      "SpellDamage"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 75,
+      "FlatMagicDamageMod": 40
+    }
+  },
+  {
+    "key": 6035,
+    "name": "Silvermere Dawn",
+    "image": "6035.png",
+    "gold": 3000,
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "Damage",
+      "Active",
+      "Tenacity"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 40,
+      "FlatHPPoolMod": 300,
+      "FlatSpellBlockMod": 40
+    }
+  },
+  {
+    "key": 3161,
+    "name": "Spear Of Shojin",
+    "image": "3161.png",
+    "gold": 3400,
+    "tags": [
+      "Health",
+      "Damage",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 65,
+      "FlatHPPoolMod": 300
+    }
+  },
+  {
+    "key": 3065,
+    "name": "Spirit Visage",
+    "image": "3065.png",
+    "gold": 2900,
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "HealthRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 450,
+      "FlatSpellBlockMod": 50
+    }
+  },
+  {
+    "key": 3053,
+    "name": "Sterak's Gage",
+    "image": "3053.png",
+    "gold": 3100,
+    "tags": [
+      "Health",
+      "Damage"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 400
+    }
+  },
+  {
+    "key": 3095,
+    "name": "Stormrazor",
+    "image": "3095.png",
+    "gold": 2700,
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed",
+      "Slow"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 45,
+      "FlatCritChanceMod": 0.2,
+      "PercentAttackSpeedMod": 0.15
+    }
+  },
+  {
+    "key": 3068,
+    "name": "Sunfire Aegis",
+    "image": "3068.png",
+    "gold": 2700,
+    "tags": [
+      "Health",
+      "Armor",
+      "Aura"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 500,
+      "FlatArmorMod": 50
+    }
+  },
+  {
+    "key": 6676,
+    "name": "The Collector",
+    "image": "6676.png",
+    "gold": 3000,
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 55,
+      "FlatCritChanceMod": 0.2
+    }
+  },
+  {
+    "key": 3075,
+    "name": "Thornmail",
+    "image": "3075.png",
+    "gold": 2700,
+    "tags": [
+      "Health",
+      "Armor"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 350,
+      "FlatArmorMod": 70
+    }
+  },
+  {
+    "key": 3748,
+    "name": "Titanic Hydra",
+    "image": "3748.png",
+    "gold": 3300,
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Damage",
+      "OnHit"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 30,
+      "FlatHPPoolMod": 500
+    }
+  },
+  {
+    "key": 6664,
+    "name": "Turbo Chemtank",
+    "image": "6664.png",
+    "gold": 2800,
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "Active",
+      "CooldownReduction",
+      "Slow",
+      "NonbootsMovement",
+      "MagicResist",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 500,
+      "FlatSpellBlockMod": 50
+    }
+  },
+  {
+    "key": 3179,
+    "name": "Umbral Glaive",
+    "image": "3179.png",
+    "gold": 2300,
+    "tags": [
+      "Damage",
+      "Vision",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 50
+    }
+  },
+  {
+    "key": 4643,
+    "name": "Vigilant Wardstone",
+    "image": "4643.png",
+    "gold": 1100,
+    "tags": [
+      "Health",
+      "Vision",
+      "Active",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 150
+    }
+  },
+  {
+    "key": 3135,
+    "name": "Void Staff",
+    "image": "3135.png",
+    "gold": 2800,
+    "tags": [
+      "MagicPenetration",
+      "SpellDamage"
+    ],
+    "stats": {
+      "FlatMagicDamageMod": 65
+    }
+  },
+  {
+    "key": 3091,
+    "name": "Wit's End",
+    "image": "3091.png",
+    "gold": 3100,
+    "tags": [
+      "SpellBlock",
+      "Damage",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+    ],
+    "stats": {
+      "FlatPhysicalDamageMod": 40,
+      "FlatSpellBlockMod": 40,
+      "PercentAttackSpeedMod": 0.4
+    }
+  },
+  {
+    "key": 3050,
+    "name": "Zeke's Convergence",
+    "image": "3050.png",
+    "gold": 2400,
+    "tags": [
+      "Health",
+      "Armor",
+      "Mana",
+      "Active",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatHPPoolMod": 250,
+      "FlatMPPoolMod": 250,
+      "FlatArmorMod": 35
+    }
+  },
+  {
+    "key": 3157,
+    "name": "Zhonya's Hourglass",
+    "image": "3157.png",
+    "gold": 3000,
+    "tags": [
+      "Armor",
+      "SpellDamage",
+      "Active",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "stats": {
+      "FlatMagicDamageMod": 80,
+      "FlatArmorMod": 45
+    }
+  },
+  {
+    "key": 3006,
+    "name": "Berserker's Greaves",
+    "image": "3006.png",
+    "gold": 1100,
+    "tags": [
+      "AttackSpeed",
+      "Boots"
+    ],
+    "stats": {
+      "FlatMovementSpeedMod": 45,
+      "PercentAttackSpeedMod": 0.35
+    }
+  },
+  {
+    "key": 3009,
+    "name": "Boots of Swiftness",
+    "image": "3009.png",
+    "gold": 900,
+    "tags": [
+      "Boots"
+    ],
+    "stats": {
+      "FlatMovementSpeedMod": 60
+    }
+  },
+  {
+    "key": 3158,
+    "name": "Ionian Boots of Lucidity",
+    "image": "3158.png",
+    "gold": 950,
+    "tags": [
+      "Boots",
+      "CooldownReduction"
+    ],
+    "stats": {
+      "FlatMovementSpeedMod": 45
+    }
+  },
+  {
+    "key": 3111,
+    "name": "Mercury's Treads",
+    "image": "3111.png",
+    "gold": 1100,
+    "tags": [
+      "Boots",
+      "SpellBlock",
+      "Tenacity"
+    ],
+    "stats": {
+      "FlatMovementSpeedMod": 45,
+      "FlatSpellBlockMod": 25
+    }
+  },
+  {
+    "key": 3117,
+    "name": "Mobility Boots",
+    "image": "3117.png",
+    "gold": 1000,
+    "tags": [
+      "Boots"
+    ],
+    "stats": {
+      "FlatMovementSpeedMod": 115
+    }
+  },
+  {
+    "key": 3047,
+    "name": "Plated Steelcaps",
+    "image": "3047.png",
+    "gold": 1100,
+    "tags": [
+      "Armor",
+      "Boots"
+    ],
+    "stats": {
+      "FlatMovementSpeedMod": 45,
+      "FlatArmorMod": 20
+    }
+  },
+  {
+    "key": 3020,
+    "name": "Sorcerer's Shoes",
+    "image": "3020.png",
+    "gold": 1100,
+    "tags": [
+      "Boots",
+      "MagicPenetration"
+    ],
+    "stats": {
+      "FlatMovementSpeedMod": 45
+    }
+  }
+]
