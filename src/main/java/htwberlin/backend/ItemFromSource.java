@@ -8,8 +8,11 @@ import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 
+@Entity
 public class ItemFromSource {
-   private String key;
+   @Id
+   @GeneratedValue(strategy = GenerationType.IDENTITY)
+   private Long key;
    private String name;
    private String image;
    private int gold;
@@ -20,21 +23,20 @@ public class ItemFromSource {
    public ItemFromSource() {
    }
 
-   public ItemFromSource(String key, String name, String image, int gold, Set<String> tags, HashMap<String, Double> stats, String description) {
+   public ItemFromSource(Long key, String name, String image, int gold, Set<String> tags, HashMap<String, Double> stats, String description) {
       this.key = key;
       this.name = name;
       this.image = image;
       this.gold = gold;
       this.tags = tags;
       this.stats = stats;
-      this.description = description;
    }
 
-   public String getKey() {
+   public Long getKey() {
       return key;
    }
 
-   public void setKey(String key) {
+   public void setKey(Long key) {
       this.key = key;
    }
 
