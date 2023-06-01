@@ -21,6 +21,10 @@ public class ItemFromSourceService {
         return repo.save(itemFromSource);
     }
 
+    public List<ItemFromSource> saveAll(List<ItemFromSource> itemsFromSource) {
+        return repo.saveAll(itemsFromSource);
+    }
+
     public ItemFromSource get(Long key) {
         return repo.findById(key).orElseThrow(RuntimeException::new);
     }

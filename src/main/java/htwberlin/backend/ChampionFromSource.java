@@ -11,6 +11,7 @@ public class ChampionFromSource {
 
 
     @Id
+    @Column(name = "champion_key")
     private int key;
     private String name;
     private String image;

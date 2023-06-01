@@ -25,25 +25,30 @@ public class ItemFromSourceController {
     }
 
 
-    @PostMapping("/itemFromSource")
+    @PostMapping("/item")
     public ItemFromSource createItemFromSource(@RequestBody ItemFromSource itemFromSource) {
         return service.save(itemFromSource);
     }
 
-    @GetMapping("/itemFromsource/{key}")
+    @PostMapping("/items")
+    public Iterable<ItemFromSource> createItemsFromSource(@RequestBody List<ItemFromSource> itemsFromSource) {
+        return service.saveAll(itemsFromSource);
+    }
+
+    @GetMapping("/items/{key}")
     public ItemFromSource getItemFromSource(@PathVariable String key) {
         Long itemFromSourceId = Long.parseLong(key);
         return service.get(itemFromSourceId);
     }
 
-    @GetMapping("/itemFromSource")
+    @GetMapping("/items")
     public List<ItemFromSource> getAllThings() {
         return service.getAll();
     }
 
 
     // Better presentation, temp. until proper UI is written
-    @GetMapping(value = "/sets")
+    @GetMapping(value = "/allitems")
     public ResponseEntity<String> getAllThingsFormatted() throws JsonProcessingException {
         List<ItemFromSource> itemFromSources = service.getAll();
         StringJoiner joiner = new StringJoiner("\n\n");
