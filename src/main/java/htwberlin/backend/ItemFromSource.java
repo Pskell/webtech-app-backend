@@ -1,12 +1,9 @@
 package htwberlin.backend;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonAnySetter;
 import jakarta.persistence.*;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Objects;
-import java.util.Set;
+import java.util.*;
 
 @Entity
 public class ItemFromSource {
@@ -20,10 +17,7 @@ public class ItemFromSource {
    @ElementCollection
    private Set <String> tags = new HashSet<>();
     @ElementCollection
-    @CollectionTable(name = "item_stats_mapping", joinColumns = @JoinColumn(name = "item_key"))
-    @MapKeyColumn(name = "stat_key")
-    @Column(name = "stat_value")
-   private HashMap <String, Double > stats = new HashMap<>();
+   private Map<String, Double > stats = new HashMap<>();
 
    public ItemFromSource() {
 
@@ -36,6 +30,7 @@ public class ItemFromSource {
       this.gold = gold;
       this.tags = tags;
       this.stats = stats;
+
    }
 
    public Long getKey() {
@@ -78,12 +73,17 @@ public class ItemFromSource {
       this.tags = tags;
    }
 
-   public HashMap<String, Double> getStats() {
-      return stats;
-   }
+  public Map<String, Double> getStats() {
+     return stats;
+  }
 
    public void setStats(HashMap<String, Double> stats) {
-      this.stats = stats;
+
+      this.stats.putAll(stats);
+   }
+ @JsonAnySetter
+   public void addStats(String key, Double value) {
+      stats.put(key,value);
    }
 
 
