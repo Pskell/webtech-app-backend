@@ -1,6 +1,4 @@
 package htwberlin.backend;
-
-import com.fasterxml.jackson.annotation.JsonAnySetter;
 import jakarta.persistence.*;
 
 import java.util.*;
@@ -12,18 +10,21 @@ public class ItemFromSource {
    private Long key;
    private String name;
    private String image;
-   private int gold;
+   private Integer gold;
 
    @ElementCollection
    private Set <String> tags = new HashSet<>();
     @ElementCollection
-   private Map<String, Double > stats = new HashMap<>();
+    @CollectionTable(name = "stats", joinColumns = @JoinColumn(name = "item_key"))
+    @MapKeyColumn(name = "set_key")
+    @Column(name = "set_value")
+   private Map<String, Double > stats=new HashMap<>();
 
    public ItemFromSource() {
 
    }
 
-   public ItemFromSource(Long key, String name, String image, int gold, Set<String> tags, HashMap<String, Double> stats, String description) {
+   public ItemFromSource(Long key, String name, String image, int gold, Set<String> tags, Map<String, Double> stats, String description) {
       this.key = key;
       this.name = name;
       this.image = image;
@@ -81,7 +82,6 @@ public class ItemFromSource {
 
       this.stats.putAll(stats);
    }
- @JsonAnySetter
    public void addStats(String key, Double value) {
       stats.put(key,value);
    }

@@ -2,7 +2,7 @@
   {
     "key": 4644,
     "name": "Crown of the Shattered Queen",
-    "image": "4644.png",
+    "image": "../assets/item/4644.png",
     "gold": 2800,
     "tags": [
       "Health",
@@ -20,7 +20,7 @@
   {
     "key": 6632,
     "name": "Divine Sunderer",
-    "image": "6632.png",
+    "image": "../assets/item/6632.png",
     "gold": 3300,
     "tags": [
       "Health",
@@ -39,7 +39,7 @@
   {
     "key": 6691,
     "name": "Duskblade of Draktharr",
-    "image": "6691.png",
+    "image": "../assets/item/6691.png",
     "gold": 3100,
     "tags": [
       "Damage",
@@ -57,7 +57,7 @@
   {
     "key": 6692,
     "name": "Eclipse",
-    "image": "6692.png",
+    "image": "../assets/item/6692.png",
     "gold": 3100,
     "tags": [
       "Damage",
@@ -73,7 +73,7 @@
   {
     "key": 6693,
     "name": "Prowler's Claw",
-    "image": "6693.png",
+    "image": "../assets/item/6693.png",
     "gold": 3100,
     "tags": [
       "Damage",
@@ -90,7 +90,7 @@
   {
     "key": 3001,
     "name": "Evenshroud",
-    "image": "3001.png",
+    "image": "../assets/item/3001.png",
     "gold": 2500,
     "tags": [
       "Health",
@@ -107,7 +107,7 @@
   {
     "key": 6656,
     "name": "Everfrost",
-    "image": "6656.png",
+    "image": "../assets/item/6656.png",
     "gold": 2800,
     "tags": [
       "Health",
@@ -127,7 +127,7 @@
   {
     "key": 6671,
     "name": "Galeforce",
-    "image": "6671.png",
+    "image": "../assets/item/6671.png",
     "gold": 3400,
     "tags": [
       "Damage",
@@ -145,7 +145,7 @@
   {
     "key": 6630,
     "name": "Goredrinker",
-    "image": "6630.png",
+    "image": "../assets/item/6630.png",
     "gold": 3300,
     "tags": [
       "Health",
@@ -164,7 +164,7 @@
   {
     "key": 3084,
     "name": "Heartsteel",
-    "image": "3084.png",
+    "image": "../assets/item/3084.png",
     "gold": 3200,
     "tags": [
       "Health",
@@ -179,7 +179,7 @@
   {
     "key": 3152,
     "name": "Hextech Rocketbelt",
-    "image": "3152.png",
+    "image": "../assets/item/3152.png",
     "gold": 3200,
     "tags": [
       "Health",
@@ -198,7 +198,7 @@
   {
     "key": 6662,
     "name": "Iceborn Gauntlet",
-    "image": "6662.png",
+    "image": "../assets/item/6662.png",
     "gold": 3000,
     "tags": [
       "Health",
@@ -216,7 +216,7 @@
   {
     "key": 6665,
     "name": "Jak'Sho, The Protean",
-    "image": "6665.png",
+    "image": "../assets/item/6665.png",
     "gold": 3200,
     "tags": [
       "Health",
@@ -235,7 +235,7 @@
   {
     "key": 7012,
     "name": "Liandry's Lament",
-    "image": "7012.png",
+    "image": "../assets/item/7012.png",
     "gold": 3200,
     "tags": [
       "SpellDamage",
@@ -251,7 +251,7 @@
   {
     "key": "3190",
     "name": "Locket of the Iron Solari",
-    "image": "3190.png",
+    "image": "../assets/item/3190.png",
     "gold": 2500,
     "tags": [
       "Health",
@@ -271,7 +271,7 @@
   {
     "key": 6655,
     "name": "Luden's Tempest",
-    "image": "6655.png",
+    "image": "../assets/item/6655.png",
     "gold": 3200,
     "tags": [
       "SpellDamage",
@@ -289,7 +289,7 @@
   {
     "key": 6617,
     "name": "Moonstone Renewer",
-    "image": "6617.png",
+    "image": "../assets/item/6617.png",
     "gold": 2500,
     "tags": [
       "Health",
@@ -305,7 +305,7 @@
   {
     "key": 4636,
     "name": "Night Harvester",
-    "image": "4636.png",
+    "image": "../assets/item/4636.png",
     "gold": 3200,
     "tags": [
       "Health",
@@ -322,7 +322,7 @@
   {
     "key": 6667,
     "name": "Radiant Virtue",
-    "image": "6667.png",
+    "image": "../assets/item/6667.png",
     "gold": 3200,
     "tags": [
       "Health",
@@ -341,7 +341,7 @@
   {
     "key": 4633,
     "name": "Riftmaker",
-    "image": "4633.png",
+    "image": "../assets/item/4633.png",
     "gold": 3200,
     "tags": [
       "Health",
@@ -359,7 +359,7 @@
   {
     "key": 6657,
     "name": "Rod of Ages",
-    "image": "6657.png",
+    "image": "../assets/item/6657.png",
     "gold": 2800,
     "tags": [
       "Health",
@@ -379,7 +379,7 @@
   {
     "key": 2065,
     "name": "Shurelya's Battlesong",
-    "image": "2065.png",
+    "image": "../assets/item/2065.png",
     "gold": 2500,
     "tags": [
       "Health",
@@ -398,7 +398,7 @@
   {
     "key": 6631,
     "name": "Stridebreaker",
-    "image": "6631.png",
+    "image": "../assets/item/6631.png",
     "gold": 3300,
     "tags": [
       "Health",
@@ -419,7 +419,7 @@
   {
     "key": 3078,
     "name": "Trinity Force",
-    "image": "3078.png",
+    "image": "../assets/item/3078.png",
     "gold": 3333,
     "tags": [
       "Health",
@@ -439,7 +439,7 @@
   {
     "key": 6672,
     "name": "Kraken Slayer",
-    "image": "6672.png",
+    "image": "../assets/item/6672.png",
     "gold": 3400,
     "tags": [
       "Damage",
@@ -457,7 +457,7 @@
   {
     "key": 6673,
     "name": "Immortal Shieldbow",
-    "image": "6673.png",
+    "image": "../assets/item/6673.png",
     "gold": 3400,
     "tags": [
       "Health",
@@ -476,7 +476,7 @@
   {
     "key": 8020,
     "name": "Abyssal Mask",
-    "image": "8020.png",
+    "image": "../assets/item/8020.png",
     "gold": 3000,
     "tags": [
       "Health",
@@ -498,7 +498,7 @@
   {
     "key": 8001,
     "name": "Anathema's Chains",
-    "image": "8001.png",
+    "image": "../assets/item/8001.png",
     "gold": 2500,
     "tags": [
       "Health",
@@ -513,7 +513,7 @@
   {
     "key": 3003,
     "name": "Archangel's Staff",
-    "image": "3003.png",
+    "image": "../assets/item/3003.png",
     "gold": 3000,
     "tags": [
       "Health",
@@ -531,7 +531,7 @@
   {
     "key": 3004,
     "name": "Manamune",
-    "image": "3004.png",
+    "image": "../assets/item/3004.png",
     "gold": 2900,
     "tags": [
       "Damage",
@@ -548,7 +548,7 @@
   {
     "key": 3504,
     "name": "Ardent Censer",
-    "image": "3504.png",
+    "image": "../assets/item/3504.png",
     "gold": 2300,
     "tags": [
       "AttackSpeed",
@@ -563,7 +563,7 @@
   {
     "key": 3508,
     "name": "Essence Reaver",
-    "image": "3508.png",
+    "image": "../assets/item/3508.png",
     "gold": 2900,
     "tags": [
       "Damage",
@@ -581,7 +581,7 @@
   {
     "key": 6696,
     "name": "Axiom Arc",
-    "image": "6696.png",
+    "image": "../assets/item/6696.png",
     "gold": 3000,
     "tags": [
       "Damage",
@@ -595,7 +595,7 @@
   {
     "key": 3102,
     "name": "Banshee's Veil",
-    "image": "3102.png",
+    "image": "../assets/item/3102.png",
     "gold": 2600,
     "tags": [
       "SpellBlock",
@@ -611,7 +611,7 @@
   {
     "key": 3071,
     "name": "Black Cleaver",
-    "image": "3071.png",
+    "image": "../assets/item/3071.png",
     "gold": 3100,
     "tags": [
       "Health",
@@ -630,7 +630,7 @@
   {
     "key": 3072,
     "name": "Bloodthirster",
-    "image": "3072.png",
+    "image": "../assets/item/3072.png",
     "gold": 3200,
     "tags": [
       "Damage",
@@ -646,7 +646,7 @@
   {
     "key": 3074,
     "name": "Ravenous Hydra",
-    "image": "3074.png",
+    "image": "../assets/item/3074.png",
     "gold": 3400,
     "tags": [
       "Damage",
@@ -663,7 +663,7 @@
   {
     "key": 3089,
     "name": "Rabadon's Deathcap",
-    "image": "3089.png",
+    "image": "../assets/item/3089.png",
     "gold": 3800,
     "tags": [
       "AbilityPower"
@@ -675,7 +675,7 @@
   {
     "key": 3083,
     "name": "Warmog's Armor",
-    "image": "3083.png",
+    "image": "../assets/item/3083.png",
     "gold": 2850,
     "tags": [
       "Health",
@@ -688,7 +688,7 @@
   {
     "key": 3864,
     "name": "Black Mist Scythe",
-    "image": "3864.png",
+    "image": "../assets/item/3864.png",
     "gold": 400,
     "tags": [
       "Health",
@@ -704,7 +704,7 @@
   {
     "key": 3860,
     "name": "Bulwark of the Mountain",
-    "image": "3860.png",
+    "image": "../assets/item/3860.png",
     "gold": 400,
     "tags": [
       "Health",
@@ -720,7 +720,7 @@
   {
     "key": 6609,
     "name": "Chempunk Chainsword",
-    "image": "6609.png",
+    "image": "../assets/item/6609.png",
     "gold": 2800,
     "tags": [
       "Health",
@@ -736,13 +736,8 @@
   {
     "key": 6616,
     "name": "Staff of Flowing Water",
-    "image": "6616.png",
-    "gold": {
-      "base": 630,
-      "purchasable": true,
-      "total": 2300,
-      "sell": 1610
-    },
+    "image": "../assets/item/6616.png",
+    "gold": 2300,
     "tags": [
       "SpellDamage",
       "ManaRegen",
@@ -755,7 +750,7 @@
   {
     "key": 4629,
     "name": "Cosmic Drive",
-    "image": "4629.png",
+    "image": "../assets/item/4629.png",
     "gold": 3000,
     "tags": [
       "SpellDamage",
@@ -771,7 +766,7 @@
   {
     "key": 3742,
     "name": "Dead Man's Plate",
-    "image": "3742.png",
+    "image": "../assets/item/3742.png",
     "gold": 2900,
     "tags": [
       "Health",
@@ -788,7 +783,7 @@
   {
     "key": 3814,
     "name": "Edge of Night",
-    "image": "3814.png",
+    "image": "../assets/item/3814.png",
     "gold": 2900,
     "tags": [
       "Health",
@@ -803,7 +798,7 @@
   {
     "key": 6333,
     "name": "Death's Dance",
-    "image": "6333.png",
+    "image": "../assets/item/6333.png",
     "gold": 3300,
     "tags": [
       "Armor",
@@ -818,7 +813,7 @@
   {
     "key": 4637,
     "name": "Demonic Embrace",
-    "image": "4637.png",
+    "image": "../assets/item/4637.png",
     "gold": 3000,
     "tags": [
       "Health",
@@ -832,7 +827,7 @@
   {
     "key": 3121,
     "name": "Fimbulwinter",
-    "image": "3121.png",
+    "image": "../assets/item/3121.png",
     "gold": 2700,
     "tags": [
       "Health",
@@ -847,7 +842,7 @@
   {
     "key": 4401,
     "name": "Force of Nature",
-    "image": "4401.png",
+    "image": "../assets/item/4401.png",
     "gold": 2900,
     "tags": [
       "Health",
@@ -863,7 +858,7 @@
   {
     "key": 3026,
     "name": "Guardian Angel",
-    "image": "3026.png",
+    "image": "../assets/item/3026.png",
     "gold": 3000,
     "tags": [
       "Armor",
@@ -877,7 +872,7 @@
   {
     "key": 3110,
     "name": "Frozen Heart",
-    "image": "3110.png",
+    "image": "../assets/item/3110.png",
     "gold": 2700,
     "tags": [
       "Armor",
@@ -894,7 +889,7 @@
   {
     "key": 3193,
     "name": "Gargoyle Stoneplate",
-    "image": "3193.png",
+    "image": "../assets/item/3193.png",
     "gold": 3200,
     "tags": [
       "SpellBlock",
@@ -911,7 +906,7 @@
   {
     "key": 4628,
     "name": "Horizon Focus",
-    "image": "4628.png",
+    "image": "../assets/item/4628.png",
     "gold": 3000,
     "tags": [
       "Health",
@@ -926,7 +921,7 @@
   {
     "key": 3181,
     "name": "Hullbreaker",
-    "image": "3181.png",
+    "image": "../assets/item/3181.png",
     "gold": 2800,
     "tags": [
       "Health",
@@ -942,7 +937,7 @@
   {
     "key": 4005,
     "name": "Imperial Mandate",
-    "image": "4005.png",
+    "image": "../assets/item/4005.png",
     "gold": 2500,
     "tags": [
       "Health",
@@ -959,7 +954,7 @@
   {
     "key": 3109,
     "name": "Knight's Vow",
-    "image": "3109.png",
+    "image": "../assets/item/3109.png",
     "gold": 2300,
     "tags": [
       "Health",
@@ -975,7 +970,7 @@
   {
     "key": 3100,
     "name": "Lich Bane",
-    "image": "3100.png",
+    "image": "../assets/item/3100.png",
     "gold": 3000,
     "tags": [
       "SpellDamage",
@@ -991,7 +986,7 @@
   {
     "key": 3036,
     "name": "Lord Dominik's Regards",
-    "image": "3036.png",
+    "image": "../assets/item/3036.png",
     "gold": 3000,
     "tags": [
       "Damage",
@@ -1009,7 +1004,7 @@
   {
     "key": 3156,
     "name": "Maw of Malmortius",
-    "image": "3156.png",
+    "image": "../assets/item/3156.png",
     "gold": 2900,
     "tags": [
       "SpellBlock",
@@ -1023,7 +1018,7 @@
   {
     "key": 3041,
     "name": "Mejai's Soulstealer",
-    "image": "3041.png",
+    "image": "../assets/item/3041.png",
     "gold": 1600,
     "tags": [
       "Health",
@@ -1038,7 +1033,7 @@
   {
     "key": 3111,
     "name": "Mercury's Treads",
-    "image": "3111.png",
+    "image": "../assets/item/3111.png",
     "gold": 1100,
     "tags": [
       "Boots",
@@ -1053,7 +1048,7 @@
   {
     "key": 3222,
     "name": "Mikael's Blessing",
-    "image": "3222.png",
+    "image": "../assets/item/3222.png",
     "gold": 2300,
     "tags": [
       "SpellBlock",
@@ -1070,7 +1065,7 @@
   {
     "key": 3165,
     "name": "Morellonomicon",
-    "image": "3165.png",
+    "image": "../assets/item/3165.png",
     "gold": 3000,
     "tags": [
       "Health",
@@ -1085,7 +1080,7 @@
   {
     "key": 3033,
     "name": "Mortal Reminder",
-    "image": "3033.png",
+    "image": "../assets/item/3033.png",
     "gold": 3000,
     "tags": [
       "Damage",
@@ -1100,7 +1095,7 @@
   {
     "key": 3115,
     "name": "Nashor's Tooth",
-    "image": "3115.png",
+    "image": "../assets/item/3115.png",
     "gold": 3200,
     "tags": [
       "AttackSpeed",
@@ -1116,7 +1111,7 @@
   {
     "key": 3857,
     "name": "Pauldrons of Whiterock",
-    "image": "3857.png",
+    "image": "../assets/item/3857.png",
     "gold": 400,
     "tags": [
       "Health",
@@ -1132,7 +1127,7 @@
   {
     "key": 3046,
     "name": "Phantom Dancer",
-    "image": "3046.png",
+    "image": "../assets/item/3046.png",
     "gold": 2600,
     "tags": [
       "Damage",
@@ -1151,7 +1146,7 @@
   {
     "key": 3143,
     "name": "Randuin's Omen",
-    "image": "3143.png",
+    "image": "../assets/item/3143.png",
     "gold": 3000,
     "tags": [
       "Health",
@@ -1167,7 +1162,7 @@
   {
     "key": 3094,
     "name": "Rapid Firecannon",
-    "image": "3094.png",
+    "image": "../assets/item/3094.png",
     "gold": 2500,
     "tags": [
       "CriticalStrike",
@@ -1183,7 +1178,7 @@
   {
     "key": 3107,
     "name": "Redemption",
-    "image": "3107.png",
+    "image": "../assets/item/3107.png",
     "gold": 2300,
     "tags": [
       "Health",
@@ -1198,7 +1193,7 @@
   {
     "key": 3085,
     "name": "Runaan's Hurricane",
-    "image": "3085.png",
+    "image": "../assets/item/3085.png",
     "gold": 2600,
     "tags": [
       "CriticalStrike",
@@ -1215,7 +1210,7 @@
   {
     "key": 3116,
     "name": "Rylai's Crystal Scepter",
-    "image": "3116.png",
+    "image": "../assets/item/3116.png",
     "gold": 2600,
     "tags": [
       "Health",
@@ -1230,7 +1225,7 @@
   {
     "key": 6695,
     "name": "Serpent's Fang",
-    "image": "6695.png",
+    "image": "../assets/item/6695.png",
     "gold": 2600,
     "tags": [
       "Damage",
@@ -1243,7 +1238,7 @@
   {
     "key": 6694,
     "name": "Serylda's Grudge",
-    "image": "6694.png",
+    "image": "../assets/item/6694.png",
     "gold": 3200,
     "tags": [
       "Damage",
@@ -1258,7 +1253,7 @@
   {
     "key": 4645,
     "name": "Shadowflame",
-    "image": "4645.png",
+    "image": "../assets/item/4645.png",
     "gold": 3000,
     "tags": [
       "Health",
@@ -1273,7 +1268,7 @@
   {
     "key": 3853,
     "name": "Shard of True Ice",
-    "image": "3853.png",
+    "image": "../assets/item/3853.png",
     "gold": 400,
     "tags": [
       "GoldPer",
@@ -1289,7 +1284,7 @@
   {
     "key": 6035,
     "name": "Silvermere Dawn",
-    "image": "6035.png",
+    "image": "../assets/item/6035.png",
     "gold": 3000,
     "tags": [
       "Health",
@@ -1307,7 +1302,7 @@
   {
     "key": 3161,
     "name": "Spear Of Shojin",
-    "image": "3161.png",
+    "image": "../assets/item/3161.png",
     "gold": 3400,
     "tags": [
       "Health",
@@ -1323,7 +1318,7 @@
   {
     "key": 3065,
     "name": "Spirit Visage",
-    "image": "3065.png",
+    "image": "../assets/item/3065.png",
     "gold": 2900,
     "tags": [
       "Health",
@@ -1340,7 +1335,7 @@
   {
     "key": 3053,
     "name": "Sterak's Gage",
-    "image": "3053.png",
+    "image": "../assets/item/3053.png",
     "gold": 3100,
     "tags": [
       "Health",
@@ -1353,7 +1348,7 @@
   {
     "key": 3095,
     "name": "Stormrazor",
-    "image": "3095.png",
+    "image": "../assets/item/3095.png",
     "gold": 2700,
     "tags": [
       "Damage",
@@ -1370,7 +1365,7 @@
   {
     "key": 3068,
     "name": "Sunfire Aegis",
-    "image": "3068.png",
+    "image": "../assets/item/3068.png",
     "gold": 2700,
     "tags": [
       "Health",
@@ -1385,7 +1380,7 @@
   {
     "key": 6676,
     "name": "The Collector",
-    "image": "6676.png",
+    "image": "../assets/item/6676.png",
     "gold": 3000,
     "tags": [
       "Damage",
@@ -1400,7 +1395,7 @@
   {
     "key": 3075,
     "name": "Thornmail",
-    "image": "3075.png",
+    "image": "../assets/item/3075.png",
     "gold": 2700,
     "tags": [
       "Health",
@@ -1414,7 +1409,7 @@
   {
     "key": 3748,
     "name": "Titanic Hydra",
-    "image": "3748.png",
+    "image": "../assets/item/3748.png",
     "gold": 3300,
     "tags": [
       "Health",
@@ -1430,7 +1425,7 @@
   {
     "key": 6664,
     "name": "Turbo Chemtank",
-    "image": "6664.png",
+    "image": "../assets/item/6664.png",
     "gold": 2800,
     "tags": [
       "Health",
@@ -1450,7 +1445,7 @@
   {
     "key": 3179,
     "name": "Umbral Glaive",
-    "image": "3179.png",
+    "image": "../assets/item/3179.png",
     "gold": 2300,
     "tags": [
       "Damage",
@@ -1466,7 +1461,7 @@
   {
     "key": 4643,
     "name": "Vigilant Wardstone",
-    "image": "4643.png",
+    "image": "../assets/item/4643.png",
     "gold": 1100,
     "tags": [
       "Health",
@@ -1482,7 +1477,7 @@
   {
     "key": 3135,
     "name": "Void Staff",
-    "image": "3135.png",
+    "image": "../assets/item/3135.png",
     "gold": 2800,
     "tags": [
       "MagicPenetration",
@@ -1495,7 +1490,7 @@
   {
     "key": 3091,
     "name": "Wit's End",
-    "image": "3091.png",
+    "image": "../assets/item/3091.png",
     "gold": 3100,
     "tags": [
       "SpellBlock",
@@ -1513,7 +1508,7 @@
   {
     "key": 3050,
     "name": "Zeke's Convergence",
-    "image": "3050.png",
+    "image": "../assets/item/3050.png",
     "gold": 2400,
     "tags": [
       "Health",
@@ -1533,7 +1528,7 @@
   {
     "key": 3157,
     "name": "Zhonya's Hourglass",
-    "image": "3157.png",
+    "image": "../assets/item/3157.png",
     "gold": 3000,
     "tags": [
       "Armor",
@@ -1550,7 +1545,7 @@
   {
     "key": 3006,
     "name": "Berserker's Greaves",
-    "image": "3006.png",
+    "image": "../assets/item/3006.png",
     "gold": 1100,
     "tags": [
       "AttackSpeed",
@@ -1564,7 +1559,7 @@
   {
     "key": 3009,
     "name": "Boots of Swiftness",
-    "image": "3009.png",
+    "image": "../assets/item/3009.png",
     "gold": 900,
     "tags": [
       "Boots"
@@ -1576,7 +1571,7 @@
   {
     "key": 3158,
     "name": "Ionian Boots of Lucidity",
-    "image": "3158.png",
+    "image": "../assets/item/3158.png",
     "gold": 950,
     "tags": [
       "Boots",
@@ -1589,7 +1584,7 @@
   {
     "key": 3111,
     "name": "Mercury's Treads",
-    "image": "3111.png",
+    "image": "../assets/item/3111.png",
     "gold": 1100,
     "tags": [
       "Boots",
@@ -1604,7 +1599,7 @@
   {
     "key": 3117,
     "name": "Mobility Boots",
-    "image": "3117.png",
+    "image": "../assets/item/3117.png",
     "gold": 1000,
     "tags": [
       "Boots"
@@ -1616,7 +1611,7 @@
   {
     "key": 3047,
     "name": "Plated Steelcaps",
-    "image": "3047.png",
+    "image": "../assets/item/3047.png",
     "gold": 1100,
     "tags": [
       "Armor",
@@ -1630,7 +1625,7 @@
   {
     "key": 3020,
     "name": "Sorcerer's Shoes",
-    "image": "3020.png",
+    "image": "../assets/item/3020.png",
     "gold": 1100,
     "tags": [
       "Boots",
