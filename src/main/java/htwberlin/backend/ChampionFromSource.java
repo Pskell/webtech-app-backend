@@ -12,7 +12,7 @@ public class ChampionFromSource {
 
     @Id
     @Column(name = "champion_key")
-    private int key;
+    private long key;
     private String name;
     private String image;
 
@@ -25,7 +25,7 @@ public class ChampionFromSource {
         this.image = image;
     }
 
-    public int getKey() {
+    public long getKey() {
         return key;
     }
 
