@@ -996,9 +996,6 @@
     "stats": {
       "FlatPhysicalDamageMod": 35,
       "FlatCritChanceMod": 0.2
-    },
-    "effect": {
-      "Effect1Amount": "0.2"
     }
   },
   {
