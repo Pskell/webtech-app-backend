@@ -15,34 +15,34 @@ import java.util.StringJoiner;
 
 
 @RestController
-public class ChampionFromSourceController {
+public class ChampionController {
 
-    private final ChampionFromSourceService service;
+    private final ChampionService service;
 
     @Autowired
-    public ChampionFromSourceController(ChampionFromSourceService service) {
+    public ChampionController(ChampionService service) {
         this.service = service;
     }
 
 
     @PostMapping("/champion")
-    public ChampionFromSource createChampionFromSource(@RequestBody ChampionFromSource championFromSource) {
-        return service.save(championFromSource);
+    public Champion createChampionFromSource(@RequestBody Champion champions) {
+        return service.save(champions);
     }
 
     @PostMapping("/champions")
-    public Iterable<ChampionFromSource> createChampionsFromSource(@RequestBody List<ChampionFromSource> champsFromSource) {
+    public Iterable<Champion> createChampionsFromSource(@RequestBody List<Champion> champsFromSource) {
         return service.saveAll(champsFromSource);
     }
 
     @GetMapping("/champions/{key}")
-    public ChampionFromSource getChampionFromSource(@PathVariable String key) {
+    public Champion getChampionFromSource(@PathVariable String key) {
         Long championFromSourceId = Long.parseLong(key);
         return service.get(championFromSourceId);
     }
 
     @GetMapping("/champions")
-    public List<ChampionFromSource> getAllThings() {
+    public List<Champion> getAllThings() {
         return service.getAll();
     }
 
@@ -50,12 +50,12 @@ public class ChampionFromSourceController {
     // Better presentation, temp. until proper UI is written
     @GetMapping(value = "/allchampions")
     public ResponseEntity<String> getAllThingsFormatted() throws JsonProcessingException {
-        List<ChampionFromSource> championFromSources = service.getAll();
+        List<Champion> champions = service.getAll();
         StringJoiner joiner = new StringJoiner("\n\n");
         ObjectMapper mapper = new ObjectMapper();
-        for (ChampionFromSource championFromSource : championFromSources) {
-            String championFromSourceJson = mapper.writeValueAsString(championFromSource);
-            joiner.add(championFromSourceJson);
+        for (Champion champion : champions) {
+            String championsJson = mapper.writeValueAsString(champions);
+            joiner.add(championsJson);
         }
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.TEXT_PLAIN);

@@ -3,11 +3,11 @@ package htwberlin.backend;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-
 @Service
-public class ItemSetService extends GenericService<ItemSet, Long> {
+public class ChampionService extends GenericService<Champion, Long> {
+
     @Autowired
-    public ItemSetService(ItemSetRepository repo) {
+    public ChampionService(ChampionRepository repo) {
         super(repo);
     }
 }

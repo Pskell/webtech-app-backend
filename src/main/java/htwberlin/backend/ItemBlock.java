@@ -2,6 +2,7 @@ package htwberlin.backend;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -17,15 +18,15 @@ public class ItemBlock {
     private Long primKey;
     private String type = "New Block";
 
-    @OneToMany(cascade = CascadeType.ALL , fetch = FetchType.EAGER,orphanRemoval=true)
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER, orphanRemoval = true)
     private List<Item> items = new ArrayList<>();
 
     public ItemBlock() {
     }
 
-    public ItemBlock(String type,List<Item> items) {
+    public ItemBlock(String type, List<Item> items) {
         this.type = type;
-        this.items=items;
+        this.items = items;
     }
 
     public List<Item> getItems() {
@@ -36,7 +37,7 @@ public class ItemBlock {
         items.add(item);
     }
 
-    public void deleteItems(Item item){
+    public void deleteItems(Item item) {
         items.remove(item);
     }
 
@@ -55,7 +56,6 @@ public class ItemBlock {
     public void setType(String type) {
         this.type = type;
     }
-
 
 
     @Override

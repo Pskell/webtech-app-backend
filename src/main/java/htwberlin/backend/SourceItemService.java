@@ -5,9 +5,11 @@ import org.springframework.stereotype.Service;
 
 
 @Service
-public class ItemSetService extends GenericService<ItemSet, Long> {
+public class SourceItemService extends GenericService<SourceItem, Long> {
+
     @Autowired
-    public ItemSetService(ItemSetRepository repo) {
+    public SourceItemService(SourceItemRepository repo) {
         super(repo);
     }
+
 }
