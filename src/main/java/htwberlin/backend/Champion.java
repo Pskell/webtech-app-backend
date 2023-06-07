@@ -12,7 +12,7 @@ public class Champion {
 
     @Id
     @Column(name = "champion_key")
-    private long key;
+    private Long key;
     private String name;
     private String image;
 
