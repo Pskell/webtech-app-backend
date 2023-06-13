@@ -1,8 +1,10 @@
-package htwberlin.backend;
+package htwberlin.backend.api;
 
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import htwberlin.backend.dbmethods.SourceItemService;
+import htwberlin.backend.data.SourceItem;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -40,6 +42,8 @@ public class SourceItemController {
         Long itemFromSourceId = Long.parseLong(key);
         return service.get(itemFromSourceId);
     }
+
+
 
     @GetMapping("/items")
     public List<SourceItem> getAllThings() {

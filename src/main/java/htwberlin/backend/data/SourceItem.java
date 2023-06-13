@@ -1,4 +1,4 @@
-package htwberlin.backend;
+package htwberlin.backend.data;
 
 import com.fasterxml.jackson.annotation.JsonAnySetter;
 import jakarta.persistence.Column;

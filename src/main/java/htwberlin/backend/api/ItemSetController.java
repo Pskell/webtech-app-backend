@@ -1,8 +1,10 @@
-package htwberlin.backend;
+package htwberlin.backend.api;
 
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import htwberlin.backend.dbmethods.ItemSetService;
+import htwberlin.backend.data.ItemSet;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

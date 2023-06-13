@@ -1,4 +1,4 @@
-package htwberlin.backend;
+package htwberlin.backend.api;
 
 
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,4 +1,4 @@
-package htwberlin.backend;
+package htwberlin.backend.data;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.Entity;

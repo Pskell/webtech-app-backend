@@ -1,4 +1,4 @@
-package htwberlin.backend;
+package htwberlin.backend.data;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -19,7 +19,7 @@ public class Champion {
     public Champion() {
     }
 
-    public Champion(int key, String name, String image) {
+    public Champion(Long key, String name, String image) {
         this.key = key;
         this.name = name;
         this.image = image;
