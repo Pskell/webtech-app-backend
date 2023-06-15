@@ -1,25 +1,25 @@
-package htwberlin.backend;
+package htwberlin.backend.data;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import jakarta.persistence.*;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
-import javax.print.DocFlavor;
 import java.util.Objects;
 
 @Entity
-public class ChampionFromSource {
+public class Champion {
 
 
     @Id
     @Column(name = "champion_key")
-    private long key;
+    private Long key;
     private String name;
     private String image;
 
-    public ChampionFromSource() {
+    public Champion() {
     }
 
-    public ChampionFromSource(int key, String name, String image) {
+    public Champion(Long key, String name, String image) {
         this.key = key;
         this.name = name;
         this.image = image;
@@ -50,7 +50,7 @@ public class ChampionFromSource {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        ChampionFromSource that = (ChampionFromSource) o;
+        Champion that = (Champion) o;
         return Objects.equals(key, that.key) && Objects.equals(name, that.name) && Objects.equals(image, that.image);
     }
 

@@ -1,7 +1,8 @@
-package htwberlin.backend;
+package htwberlin.backend.data;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -21,7 +22,7 @@ public class ItemSet {
     @ElementCollection
     private List<Integer> associatedChampions = new ArrayList<>();
     ;
-    @OneToMany(cascade = CascadeType.ALL , fetch = FetchType.EAGER,orphanRemoval=true)
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER, orphanRemoval = true)
     private List<ItemBlock> blocks = new ArrayList<>();
 
 

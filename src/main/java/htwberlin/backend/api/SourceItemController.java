@@ -1,8 +1,10 @@
-package htwberlin.backend;
+package htwberlin.backend.api;
 
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import htwberlin.backend.dbmethods.SourceItemService;
+import htwberlin.backend.data.SourceItem;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -15,34 +17,36 @@ import java.util.StringJoiner;
 
 
 @RestController
-public class ItemFromSourceController {
+public class SourceItemController {
 
-    private final ItemFromSourceService service;
+    private final SourceItemService service;
 
     @Autowired
-    public ItemFromSourceController(ItemFromSourceService service) {
+    public SourceItemController(SourceItemService service) {
         this.service = service;
     }
 
 
     @PostMapping("/item")
-    public ItemFromSource createItemFromSource(@RequestBody ItemFromSource itemFromSource) {
-        return service.save(itemFromSource);
+    public SourceItem createItemFromSource(@RequestBody SourceItem sourceItem) {
+        return service.save(sourceItem);
     }
 
     @PostMapping("/items")
-    public Iterable<ItemFromSource> createItemsFromSource(@RequestBody List<ItemFromSource> itemsFromSource) {
+    public Iterable<SourceItem> createItemsFromSource(@RequestBody List<SourceItem> itemsFromSource) {
         return service.saveAll(itemsFromSource);
     }
 
     @GetMapping("/items/{key}")
-    public ItemFromSource getItemFromSource(@PathVariable String key) {
+    public SourceItem getItemFromSource(@PathVariable String key) {
         Long itemFromSourceId = Long.parseLong(key);
         return service.get(itemFromSourceId);
     }
 
+
+
     @GetMapping("/items")
-    public List<ItemFromSource> getAllThings() {
+    public List<SourceItem> getAllThings() {
         return service.getAll();
     }
 
@@ -50,11 +54,11 @@ public class ItemFromSourceController {
     // Better presentation, temp. until proper UI is written
     @GetMapping(value = "/allitems")
     public ResponseEntity<String> getAllThingsFormatted() throws JsonProcessingException {
-        List<ItemFromSource> itemFromSources = service.getAll();
+        List<SourceItem> sourceItems = service.getAll();
         StringJoiner joiner = new StringJoiner("\n\n");
         ObjectMapper mapper = new ObjectMapper();
-        for (ItemFromSource itemFromSource : itemFromSources) {
-            String itemFromSourceJson = mapper.writeValueAsString(itemFromSource);
+        for (SourceItem sourceItem : sourceItems) {
+            String itemFromSourceJson = mapper.writeValueAsString(sourceItem);
             joiner.add(itemFromSourceJson);
         }
         HttpHeaders headers = new HttpHeaders();
