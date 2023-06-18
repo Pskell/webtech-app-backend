@@ -1,3 +1,7 @@
+/*
+
+Currently unnecessary code, as champion data can be loaded dynamically from the JSON file, without the need of accessing the backend.
+
 package htwberlin.backend.dbmethods;
 
 import htwberlin.backend.data.Champion;
@@ -14,9 +18,6 @@ public class ChampionService extends GenericService<Champion, Long> {
 
 
 
-/*  Get champion image from id, to be loaded for the vue app when importing an itemset.
-    Need to create get Request as well.
-  public String getImage(Long){
 
-    }*/
 }
+*/

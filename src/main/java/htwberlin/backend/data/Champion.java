@@ -1,3 +1,7 @@
+/*
+
+Currently unnecessary code, as champion data can be loaded dynamically from the JSON file, without the need of accessing the backend.
+
 package htwberlin.backend.data;
 
 import jakarta.persistence.Column;
@@ -59,3 +63,4 @@ public class Champion {
         return Objects.hash(key, name, image);
     }
 }
+*/
