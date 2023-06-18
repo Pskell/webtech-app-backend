@@ -51,24 +51,5 @@ public class ChampionController {
     public List<Champion> getAllThings() {
         return service.getAll();
     }
-
-
-    // Better presentation, temp. until proper UI is written
-    @GetMapping(value = "/allchampions")
-    public ResponseEntity<String> getAllThingsFormatted() throws JsonProcessingException {
-        List<Champion> champions = service.getAll();
-        StringJoiner joiner = new StringJoiner("\n\n");
-        ObjectMapper mapper = new ObjectMapper();
-        for (Champion champion : champions) {
-            String championsJson = mapper.writeValueAsString(champions);
-            joiner.add(championsJson);
-        }
-        HttpHeaders headers = new HttpHeaders();
-        headers.setContentType(MediaType.TEXT_PLAIN);
-        return new ResponseEntity<>(joiner.toString(), headers, HttpStatus.OK);
-    }
-
-
-
 }
 */

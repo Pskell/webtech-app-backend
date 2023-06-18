@@ -43,20 +43,4 @@ public class ItemSetController {
         return service.getAll();
     }
 
-
-    // Better presentation, temp. until proper UI is written
-    @GetMapping(value = "/sets")
-    public ResponseEntity<String> getAllThingsFormatted() throws JsonProcessingException {
-        List<ItemSet> itemSets = service.getAll();
-        StringJoiner joiner = new StringJoiner("\n\n");
-        ObjectMapper mapper = new ObjectMapper();
-        for (ItemSet itemSet : itemSets) {
-            String itemSetJson = mapper.writeValueAsString(itemSet);
-            joiner.add(itemSetJson);
-        }
-        HttpHeaders headers = new HttpHeaders();
-        headers.setContentType(MediaType.TEXT_PLAIN);
-        return new ResponseEntity<>(joiner.toString(), headers, HttpStatus.OK);
-    }
-
 }

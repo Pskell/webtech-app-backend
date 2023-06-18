@@ -54,22 +54,5 @@ public class SourceItemController {
     public List<SourceItem> getAllThings() {
         return service.getAll();
     }
-
-
-    // Better presentation, temp. until proper UI is written
-    @GetMapping(value = "/allitems")
-    public ResponseEntity<String> getAllThingsFormatted() throws JsonProcessingException {
-        List<SourceItem> sourceItems = service.getAll();
-        StringJoiner joiner = new StringJoiner("\n\n");
-        ObjectMapper mapper = new ObjectMapper();
-        for (SourceItem sourceItem : sourceItems) {
-            String itemFromSourceJson = mapper.writeValueAsString(sourceItem);
-            joiner.add(itemFromSourceJson);
-        }
-        HttpHeaders headers = new HttpHeaders();
-        headers.setContentType(MediaType.TEXT_PLAIN);
-        return new ResponseEntity<>(joiner.toString(), headers, HttpStatus.OK);
-    }
-
 }
 */
