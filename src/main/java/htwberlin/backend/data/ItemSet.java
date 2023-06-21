@@ -11,7 +11,6 @@ import java.util.Objects;
 @Entity
 public class ItemSet {
 
-    @JsonIgnore
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long primKey;

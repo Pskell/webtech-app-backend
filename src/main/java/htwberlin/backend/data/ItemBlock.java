@@ -12,7 +12,7 @@ import java.util.Objects;
 @Entity
 public class ItemBlock {
 
-    @JsonIgnore
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long primKey;

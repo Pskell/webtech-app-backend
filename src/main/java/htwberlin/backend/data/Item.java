@@ -14,7 +14,6 @@ public class Item {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @JsonIgnore
     private Long primKey;
     private String id;
     private int count;
