@@ -20,7 +20,10 @@ public class ItemSetController {
         this.service = service;
     }
 
-
+    @GetMapping("/")
+    public String index() {
+        return "Greetings from Spring Boot!";
+    }
     @PostMapping("/itemsets")
     public ItemSet createItemSet(@RequestBody ItemSet itemSet) {
         return service.save(itemSet);
@@ -41,5 +44,6 @@ public class ItemSetController {
     public void deleteItemSet(@PathVariable Long primKey) {
         service.deleteById(primKey);
     }
+
 
 }
