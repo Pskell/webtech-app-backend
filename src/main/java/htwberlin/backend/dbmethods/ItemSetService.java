@@ -9,7 +9,6 @@ import java.util.List;
 @Service
 public class ItemSetService {
 
-
     private final ItemSetRepository repo;
 
     @Autowired
@@ -17,26 +16,23 @@ public class ItemSetService {
         this.repo = repo;
     }
 
-
-    public ItemSet save(ItemSet itemset) {
-        return repo.save(itemset);
-    }
-
-    public List<ItemSet> saveAll(List<ItemSet> itemsets) {
-        return repo.saveAll(itemsets);
-    }
-
     public ItemSet get(Long key) {
-        return repo.findById(key).orElseThrow(RuntimeException::new);
+        return repo.findById(key).orElse(null);
+    }
+
+    public List<ItemSet> getAll() {
+        return repo.findAll();
     }
 
     public void deleteById(Long key){
         repo.deleteById(key);
     }
 
-    public List<ItemSet> getAll() {
-        return repo.findAll();
+    public ItemSet save(ItemSet itemset) {
+        return repo.save(itemset);
     }
+
+
 
 
 

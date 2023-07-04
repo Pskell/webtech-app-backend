@@ -4,7 +4,9 @@ package htwberlin.backend.api;
 
 import htwberlin.backend.dbmethods.ItemSetService;
 import htwberlin.backend.data.ItemSet;
+import org.apache.coyote.Response;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
@@ -30,13 +32,13 @@ public class ItemSetController {
     }
 
     @GetMapping("/itemsets/{primKey}")
-    public ItemSet getItemSet(@PathVariable String primKey) {
+    public ResponseEntity<ItemSet> getItemSet(@PathVariable String primKey) {
         Long itemSetId = Long.parseLong(primKey);
-        return service.get(itemSetId);
+        var set = service.get(itemSetId);
+        return set != null? ResponseEntity.ok(set) : ResponseEntity.notFound().build();
     }
-
     @GetMapping("/itemsets")
-    public List<ItemSet> getAllThings() {
+    public List<ItemSet> getAllTItemSets() {
         return service.getAll();
     }
 

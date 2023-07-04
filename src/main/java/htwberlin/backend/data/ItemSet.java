@@ -38,6 +38,10 @@ public class ItemSet {
         return primKey;
     }
 
+    public void setPrimKey(Long primKey) {
+        this.primKey= primKey;
+    }
+
     public String getTitle() {
         return title;
     }
@@ -45,9 +49,6 @@ public class ItemSet {
     public void setTitle(String title) {
         this.title = title;
     }
-
-    //TODO
-    // Allow setters for adding/changing one/multiple maps/champions afterwards
 
     public List<Integer> getAssociatedMaps() {
         return associatedMaps;
