@@ -2,13 +2,13 @@ package htwberlin.backend.data;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-//TODO
-// It might be necessary to also create a REST-Interface for ItemBlock
 @Entity
 public class ItemBlock {
 
@@ -16,12 +16,14 @@ public class ItemBlock {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long primKey;
-    private String type = "New Block";
+
+    private String type;
 
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER, orphanRemoval = true)
     private List<Item> items = new ArrayList<>();
 
     public ItemBlock() {
+        this.type= "New Block";
     }
 
     public ItemBlock(String type, List<Item> items) {

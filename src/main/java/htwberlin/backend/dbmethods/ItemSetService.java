@@ -16,16 +16,22 @@ public class ItemSetService {
         this.repo = repo;
     }
 
+    // Return a single saved itemSet by its primary key.
     public ItemSet get(Long key) {
         return repo.findById(key).orElse(null);
     }
 
+    // Return all saved itemSets.
     public List<ItemSet> getAll() {
         return repo.findAll();
     }
-
-    public void deleteById(Long key){
+    // Delete a single saved itemSet by its primary key, return false, if it doesn't exist.
+    public boolean deleteById(Long key){
+        if(!repo.existsById(key)){
+            return false;
+        }
         repo.deleteById(key);
+        return true;
     }
 
     public ItemSet save(ItemSet itemset) {

@@ -2,6 +2,8 @@ package htwberlin.backend.data;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -15,6 +17,7 @@ public class ItemSet {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long primKey;
 
+    @NotNull
     private String title;
     @ElementCollection
     private List<Integer> associatedMaps = new ArrayList<>();
@@ -22,6 +25,7 @@ public class ItemSet {
     private List<Integer> associatedChampions = new ArrayList<>();
     ;
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER, orphanRemoval = true)
+    @NotEmpty
     private List<ItemBlock> blocks = new ArrayList<>();
 
 
