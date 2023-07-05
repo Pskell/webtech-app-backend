@@ -1,10 +1,6 @@
 package htwberlin.backend.data;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotEmpty;
-import jakarta.validation.constraints.NotNull;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -23,7 +19,7 @@ public class ItemBlock {
     private List<Item> items = new ArrayList<>();
 
     public ItemBlock() {
-        this.type= "New Block";
+        this.type = "New Block";
     }
 
     public ItemBlock(String type, List<Item> items) {
@@ -35,16 +31,16 @@ public class ItemBlock {
         return items;
     }
 
+    public void setItems(List<Item> items) {
+        this.items = items;
+    }
+
     public void addItems(Item item) {
         items.add(item);
     }
 
     public void deleteItems(Item item) {
         items.remove(item);
-    }
-
-    public void setItems(List<Item> items) {
-        this.items = items;
     }
 
     public Long getPrimKey() {

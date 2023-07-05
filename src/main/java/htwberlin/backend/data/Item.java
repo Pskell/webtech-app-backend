@@ -1,6 +1,5 @@
 package htwberlin.backend.data;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -24,6 +23,9 @@ public class Item {
     public Item() {
     }
 
+    /* Current list of items loaded inside the front-end only allow a count value of 1,
+       but technically possible to save Items with count>1, if correctly implemented in the front-end.
+    */
     public Item(String id, int count) {
         this.id = id;
         this.count = count;

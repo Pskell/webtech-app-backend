@@ -1,8 +1,9 @@
 package htwberlin.backend.dbmethods;
 
+import htwberlin.backend.data.ItemSet;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import htwberlin.backend.data.ItemSet;
+
 import java.util.List;
 
 
@@ -25,21 +26,20 @@ public class ItemSetService {
     public List<ItemSet> getAll() {
         return repo.findAll();
     }
+
     // Delete a single saved itemSet by its primary key, return false, if it doesn't exist.
-    public boolean deleteById(Long key){
-        if(!repo.existsById(key)){
+    public boolean deleteById(Long key) {
+        if (!repo.existsById(key)) {
             return false;
         }
         repo.deleteById(key);
         return true;
     }
 
+    //save an ItemSet (Validation (should) happen inside the controller class )
     public ItemSet save(ItemSet itemset) {
         return repo.save(itemset);
     }
-
-
-
 
 
 }

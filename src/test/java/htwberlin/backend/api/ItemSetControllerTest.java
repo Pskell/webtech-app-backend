@@ -49,14 +49,11 @@ class ItemSetControllerTest {
     }
 
     @Test
-    @DisplayName("Testing createItemSet, JSON is not a valid ItemSet object (No title), " +
+    @DisplayName("Testing createItemSet, JSON is not a valid ItemSet object (no name), " +
             "checking for a fully correct JSON structure currently not possible")
     void createItemSetWrongStructure() throws Exception {
-        // Mock the behavior of the service
-        ItemSet set1 = new ItemSet("TestSet1");
-        set1.setPrimKey(2L);
 
-        String request = "{\"associatedMaps\":[11,12],\"associatedChampions\":[]," +
+        String request = "{\"associatedMaps\":[1],\"associatedChampions\":[]," +
                 "\"blocks\":[{\"type\":\"New Block\",\"items\":[]}]}";
 
         this.mockMvc.perform(post("/itemsets")

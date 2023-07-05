@@ -17,7 +17,7 @@ class ItemSetServiceTest implements WithAssertions {
     @Mock
     ItemSetRepository repo;
     @InjectMocks
-    ItemSetService itemSetService;
+    ItemSetService service;
 
     @Test
     @DisplayName("Test get method")
