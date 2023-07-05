@@ -38,7 +38,7 @@ class ItemSetControllerTest {
 
         when(service.save(any(ItemSet.class))).thenReturn(set1);
 
-        String request = "{\"title\":\"TestSet1\",\"associatedMaps\":[11,12],\"associatedChampions\":[]," +
+            String request = "{\"title\":\"TestSet1\",\"associatedMaps\":[11,12],\"associatedChampions\":[]," +
                 "\"blocks\":[{\"type\":\"New Block\",\"items\":[]}]}";
 
         this.mockMvc.perform(post("/itemsets")

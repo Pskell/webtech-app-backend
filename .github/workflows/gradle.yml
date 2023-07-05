@@ -20,4 +20,4 @@ jobs:
           distribution: "adopt"
       - run: chmod +x gradlew
       - name: Run Tests
-        run: ./gradlew test
+        run: ./gradlew test -i
