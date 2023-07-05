@@ -15,7 +15,7 @@ public class ItemSet {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long primKey;
 
-    @NotNull
+
     private String title;
 
     //Can contain value 11, 12 or both - not verified.
@@ -30,6 +30,7 @@ public class ItemSet {
 
 
     public ItemSet() {
+        this.title="New ItemSet";
     }
 
     //By default, an ItemSet should be created, that is applicable to all maps and contains a single empty itemblock.
@@ -63,6 +64,7 @@ public class ItemSet {
         return associatedChampions;
     }
 
+    @NotEmpty
     public List<ItemBlock> getBlocks() {
         return blocks;
     }

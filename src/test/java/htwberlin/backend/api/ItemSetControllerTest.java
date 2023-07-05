@@ -32,7 +32,7 @@ class ItemSetControllerTest {
 
 
     @Test
-    @DisplayName("Testing createItemSet, JSON is a valid ItemSet object")
+    @DisplayName("Test1; Testing createItemSet, JSON is a valid ItemSet object")
     void createItemSet() throws Exception {
         ItemSet set1 = new ItemSet("TestSet1");
 
@@ -48,13 +48,14 @@ class ItemSetControllerTest {
         verify(service, times(1)).save(set1);
     }
 
-    @Test
-    @DisplayName("Testing createItemSet, JSON is not a valid ItemSet object (no name), " +
+    // Causing issues, fix TODO
+   @Test
+    @DisplayName("Test 2; Testing createItemSet, JSON is not a valid ItemSet object (no itemblock), " +
             "checking for a fully correct JSON structure currently not possible")
     void createItemSetWrongStructure() throws Exception {
 
-        String request = "{\"associatedMaps\":[1],\"associatedChampions\":[]," +
-                "\"blocks\":[{\"type\":\"New Block\",\"items\":[]}]}";
+        String request = "{\"title\":\"TestSet1\",\"associatedMaps\":[11,12],\"associatedChampions\":[]," +
+                "\"blocks\":[]}";
 
         this.mockMvc.perform(post("/itemsets")
                         .contentType(MediaType.APPLICATION_JSON)
@@ -62,8 +63,9 @@ class ItemSetControllerTest {
                 .andExpect(status().isBadRequest());
     }
 
+
     @Test
-    @DisplayName("Testing get - ItemSet exists")
+    @DisplayName("Test 3; Testing get - ItemSet exists")
     void getItemSet() throws Exception {
 
         ItemSet set1 = new ItemSet("TestSet1");
@@ -82,7 +84,7 @@ class ItemSetControllerTest {
     }
 
     @Test
-    @DisplayName("Testing get - ItemSet doesn't exist")
+    @DisplayName("Test 4; Testing get - ItemSet doesn't exist")
     void getItemSetNonExisting() throws Exception {
 
         doReturn(null).when(service).get(5L);
@@ -93,7 +95,7 @@ class ItemSetControllerTest {
     }
 
     @Test
-    @DisplayName("Testing getAll")
+    @DisplayName("Test 5; Testing getAll")
     void getAllItemSets() throws Exception {
 
         ItemSet set1 = new ItemSet("TestSet1");
@@ -121,7 +123,7 @@ class ItemSetControllerTest {
     }
 
     @Test
-    @DisplayName("Testing deleteItemSet - item exists")
+    @DisplayName("Test 6; Testing deleteItemSet - item exists")
     void deleteItemSet() throws Exception {
 
         ItemSet set1 = new ItemSet("TestSet1");
@@ -133,7 +135,7 @@ class ItemSetControllerTest {
     }
 
     @Test
-    @DisplayName("Testing deleteItemSet - item doesn't exist")
+    @DisplayName("Test 7; Testing deleteItemSet - item doesn't exist")
     void deleteItemSetNonExisting() throws Exception {
         when(service.deleteById(17L)).thenReturn(false);
         this.mockMvc.perform(delete("/itemsets/17"))
