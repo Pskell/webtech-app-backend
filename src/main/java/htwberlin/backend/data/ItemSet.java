@@ -2,7 +2,7 @@ package htwberlin.backend.data;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotEmpty;
-import jakarta.validation.constraints.NotNull;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -14,11 +14,9 @@ public class ItemSet {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long primKey;
-
-
     private String title;
-
-    //Can contain value 11, 12 or both - not verified.
+    //Can contain value 11, 12 or both - not verified, could also technically be final,
+    // but for the sake of testing it was omitted.
     @ElementCollection
     private List<Integer> associatedMaps = new ArrayList<>();
 
@@ -30,15 +28,17 @@ public class ItemSet {
 
 
     public ItemSet() {
-        this.title="New ItemSet";
+        this.title = "New ItemSet";
+        this.blocks.add(new ItemBlock());
     }
 
-    //By default, an ItemSet should be created, that is applicable to all maps and contains a single empty itemblock.
+    //By default, an ItemSet should be created, that is applicable to all maps and contains a single empty ItemBlock
     public ItemSet(String title) {
         this.title = title;
         associatedMaps = Arrays.asList(11, 12);
         blocks.add(new ItemBlock());
     }
+
 
     public Long getPrimKey() {
         return primKey;
@@ -47,6 +47,7 @@ public class ItemSet {
     public void setPrimKey(Long primKey) {
         this.primKey = primKey;
     }
+
 
     public String getTitle() {
         return title;
@@ -60,9 +61,14 @@ public class ItemSet {
         return associatedMaps;
     }
 
+    public void setAssociatedMaps(List<Integer> associatedMaps) {
+        this.associatedMaps = associatedMaps;
+    }
+
     public List<Integer> getAssociatedChampions() {
         return associatedChampions;
     }
+
 
     @NotEmpty
     public List<ItemBlock> getBlocks() {

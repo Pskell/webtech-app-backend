@@ -34,6 +34,7 @@ public class ItemSetController {
     @PostMapping("/itemsets")
     public ResponseEntity<ItemSet> createItemSet(@Valid @RequestBody ItemSet itemSet) {
         var set = service.save(itemSet);
+
         return ResponseEntity.ok(set);
     }
 
