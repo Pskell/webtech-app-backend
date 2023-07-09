@@ -22,8 +22,12 @@ dependencies {
 }
 
 test {
-
-	useJUnitPlatform(){
-
+	useJUnitPlatform()
+	testLogging {
+		events "FAILED",
+				"PASSED",
+				"SKIPPED",
+				"STANDARD_OUT",
+				"STANDARD_ERROR"
 	}
 }
